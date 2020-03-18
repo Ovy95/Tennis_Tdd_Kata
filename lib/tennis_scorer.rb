@@ -5,7 +5,11 @@ class Tennis
   
 
   def won_point
+    if @score == 'Love'
     @score = 'Fifteen'
+    else 
+    @score = 'Thirty'
+    end
   end
 
 
