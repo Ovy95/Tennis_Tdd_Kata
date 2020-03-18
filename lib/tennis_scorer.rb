@@ -1,7 +1,16 @@
 class Tennis 
+  def initialize 
+    @score = 'Love'
+  end 
+  
+
+  def won_point
+    @score = 'Fifteen'
+  end
+
 
   def score 
-    "Love-Love"
+    "#{@score}-Love"
   end
 
 end
